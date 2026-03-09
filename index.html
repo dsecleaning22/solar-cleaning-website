@@ -37,6 +37,13 @@ text-align:center;
 background:#e9f5db;
 }
 
+.hero img{
+width:80%;
+max-width:700px;
+border-radius:10px;
+margin-top:20px;
+}
+
 .services{
 text-align:center;
 padding:40px;
@@ -47,7 +54,7 @@ display:inline-block;
 background:white;
 padding:20px;
 margin:15px;
-width:250px;
+width:260px;
 border-radius:10px;
 box-shadow:0 3px 10px rgba(0,0,0,0.1);
 }
@@ -58,6 +65,28 @@ padding:40px;
 text-align:center;
 }
 
+.reviews{
+background:#e9f5db;
+padding:40px;
+text-align:center;
+}
+
+.review-card{
+display:inline-block;
+background:white;
+padding:20px;
+margin:15px;
+width:250px;
+border-radius:10px;
+box-shadow:0 3px 10px rgba(0,0,0,0.1);
+}
+
+.office{
+padding:40px;
+text-align:center;
+background:white;
+}
+
 button{
 background:#2a9d8f;
 color:white;
@@ -65,10 +94,24 @@ padding:12px 25px;
 border:none;
 border-radius:5px;
 cursor:pointer;
+font-size:16px;
 }
 
 button:hover{
 background:#21867a;
+}
+
+.whatsapp{
+position:fixed;
+bottom:20px;
+right:20px;
+background:#25D366;
+color:white;
+padding:15px 20px;
+border-radius:50px;
+font-weight:bold;
+text-decoration:none;
+box-shadow:0 5px 15px rgba(0,0,0,0.2);
 }
 
 footer{
@@ -92,13 +135,17 @@ margin-top:30px;
 <nav>
 <a href="#">Home</a>
 <a href="#services">Services</a>
+<a href="#reviews">Reviews</a>
 <a href="#booking">Book Appointment</a>
 </nav>
 
 <section class="hero">
 <h2>Professional Solar Panel Cleaning</h2>
 <p>Dirty solar panels can lose up to 30% efficiency. Book a cleaning today!</p>
+
+<img src="https://images.unsplash.com/photo-1509395176047-4a66953fd231">
 </section>
+
 
 <section class="services" id="services">
 
@@ -106,20 +153,58 @@ margin-top:30px;
 
 <div class="card">
 <h3>🏠 Home Solar Cleaning</h3>
-<p>Cleaning services for residential solar panels.</p>
+<p>Cleaning services for residential solar panels using eco-friendly water and soft brushes.</p>
 </div>
 
 <div class="card">
 <h3>🏢 Commercial Cleaning</h3>
-<p>Large scale solar panel cleaning for businesses.</p>
+<p>Large scale solar panel cleaning for businesses and industries.</p>
 </div>
 
 <div class="card">
 <h3>⚡ Efficiency Check</h3>
-<p>Panel inspection to ensure maximum performance.</p>
+<p>Inspection and performance check of solar panels.</p>
+</div>
+
+<div class="card">
+<h3>🧽 Eco-Friendly Cleaning</h3>
+<p>Non-abrasive cleaning with RO water and soft equipment to prevent scratches.</p>
+</div>
+
+<div class="card">
+<h3>🔧 Technical Inspection</h3>
+<p>Electrical checks including DC side, earthing, and inverter inspection.</p>
+</div>
+
+<div class="card">
+<h3>📅 Routine Maintenance</h3>
+<p>Monthly cleaning packages and Annual Maintenance Contracts (AMC).</p>
 </div>
 
 </section>
+
+
+<section class="reviews" id="reviews">
+
+<h2>⭐ Customer Reviews</h2>
+
+<div class="review-card">
+<p>"Excellent service! My solar output increased after cleaning."</p>
+<strong>- Rahul, Navi Mumbai</strong>
+</div>
+
+<div class="review-card">
+<p>"Very professional team and eco-friendly cleaning."</p>
+<strong>- Priya, Thane</strong>
+</div>
+
+<div class="review-card">
+<p>"Affordable and reliable solar maintenance service."</p>
+<strong>- Amit, Mumbai</strong>
+</div>
+
+</section>
+
 
 <section class="booking" id="booking">
 
@@ -133,8 +218,30 @@ margin-top:30px;
 
 </section>
 
+
+<section class="office">
+
+<h2>🏢 Our Office</h2>
+
+<p><strong>DS Enterprise</strong></p>
+
+<p>
+Sagar Vihar CHS,<br>
+Mugalsan Rd, Sector-19,<br>
+Airoli, Navi Mumbai,<br>
+Maharashtra 400708
+</p>
+
+</section>
+
+
+<a class="whatsapp" href="https://wa.me/917021580328" target="_blank">
+💬 Chat on WhatsApp
+</a>
+
+
 <footer>
-<p>© 2026 Solar Panel Cleaning Service</p>
+<p>© 2026 Solar Panel Cleaning Service | DS Enterprise</p>
 </footer>
 
 </body>
